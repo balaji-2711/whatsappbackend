@@ -6,7 +6,7 @@ const cors = require("cors");
 const Messages = require("./dbMessages");
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 5000;
 
 // const pusher = new Pusher({
 //   appId: "1330597",
